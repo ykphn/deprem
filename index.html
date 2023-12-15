@@ -142,14 +142,11 @@
         </script>
 
         <script>
-            // HTML üzerindeki düğmeyi seçin
             var depremHaritasi = document.getElementById('depremHaritasi');
 
             depremHaritasi.addEventListener('click', function () {
                 var onay = confirm("AFAD'ın resmi sitesine yönlendirilecek. Kabul ediyor musunuz?");
-
-                // Eğer kullanıcı "Evet" derse
-                if (onay) { // Belirtilen siteye yönlendirin
+                if (onay) {
                     window.open('https://tdth.afad.gov.tr', '_blank');
                 }
             });
