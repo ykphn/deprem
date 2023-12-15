@@ -1,1 +1,1 @@
-https://ykphn.github.io/deprem/
+Website: https://ykphn.github.io/deprem/
